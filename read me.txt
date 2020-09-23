@@ -1,0 +1,23 @@
+Invasion - By Simon Price - 1 May 2000
+
+What's this ?
+
+It's a little demo of how to make really cool, fast graphics, with so few lines of code that I wrote it in just one day! Explosions, stars, UFOs and bullets are thrown around the screen at amazing pace by using a few API functions. They are BitBlt, StretchBlt, SetPixel, MoveToEx and LineTo. 
+
+How does it work ?
+
+Well, I ain't explaining no boring trigonometry to explain how the bullets go in the right direction etc. but the main lesson here is the graphics. I use something called a backbuffer. I'm not a DirectX fan (I haven't even got DX7) and I am stubborn and still believe that the good old API serve me well enough. So I draw everything onto a picturebox, then I use StretchBlt to copy it to screen. This method is fast and does not leave any horrible flickering.
+
+Want more games ?
+
+This game took me just 1 day. If you want to see much better games that I've made, and download the source code for free, visit my website :
+          www.hispalace.fsbusiness.co.uk
+My website only has games programming materials on it: downloads, tutorials etc. I specialise in making games in VB (OK, it's the only thing I know, I mean, I've had a PC for less than 6 months)
+
+Feedback Goes To ?
+
+If you have any comments or questions : email KingSimon@HisPalace.fsbusiness.co.uk
+
+Copywrite stuff :
+
+All code in this zip download is provided 'as is' with no implied guarentees or suitablilty for a particular use. This game and the source code for it remain copywrite of King Si's VB Games and the selling or redistributing of the game is not allowed without permission from the author (email above).
